@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Pillow Test Automation Suites]">
+  <test thread-count="5" name="Pillow Test cases(failed)">
+    <classes>
+      <class name="com.pillow.qa.testcases.CheckoutpageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="paynow"/>
+        </methods>
+      </class> <!-- com.pillow.qa.testcases.CheckoutpageTest -->
+    </classes>
+  </test> <!-- Pillow Test cases(failed) -->
+</suite> <!-- Failed suite [Pillow Test Automation Suites] -->
